@@ -1,0 +1,40 @@
+.statistics {
+	width: 400px;
+    margin: auto;
+    background-color: black;
+    border: 1px solid red;
+    box-shadow: 0 0 1em;
+}
+
+.title {
+	font-size: 25px;
+	color: white;
+	text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.stat_list{
+    display: flex;
+    margin-right: 35px;
+    height: 60px;
+    list-style: none;
+}
+
+.item{
+    width: 70px;
+    font-size: 20px;
+}
+
+.label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.percentage{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
